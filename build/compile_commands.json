@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rothnald/Workspace/SDL-OpenGL-Boilerplate/build",
+  "command": "/usr/bin/g++-6   -I/usr/include/SDL2  -O3 -DNDEBUG   -o CMakeFiles/SDL-OpenGL-Boilerplate.dir/main.cpp.o -c /home/rothnald/Workspace/SDL-OpenGL-Boilerplate/main.cpp",
+  "file": "/home/rothnald/Workspace/SDL-OpenGL-Boilerplate/main.cpp"
+}
+]
