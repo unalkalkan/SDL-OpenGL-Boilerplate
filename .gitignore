@@ -1,2 +1,3 @@
 # build gitignores
 build/
+.vscode/
