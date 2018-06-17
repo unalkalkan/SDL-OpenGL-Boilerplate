@@ -20,8 +20,22 @@ int main()
         std::cout << "Couldn't create window!" << std::endl;
         return 1;
     }
-    SDL_Delay(3000);
-    SDL_DestroyWindow(window);
+
+    bool quit = false;
+    SDL_Event e;
+
+    // main loop
+    while( !quit )
+    {
+        // Event loop
+        while( SDL_PollEvent(&e) != 0 )
+        {
+            if( e.type == SDL_QUIT )
+            {
+                quit = true;
+            }
+        }
+    }
 
     SDL_Quit();
     

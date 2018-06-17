@@ -1,1 +1,0 @@
-/usr/bin/g++-6     CMakeFiles/SDL2Boilerplate.dir/main.cpp.o  -o SDL2Boilerplate -L/usr/lib/x86_64-linux-gnu  -lSDL2 

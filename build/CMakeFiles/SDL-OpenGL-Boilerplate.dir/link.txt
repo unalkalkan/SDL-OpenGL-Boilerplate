@@ -1,1 +1,0 @@
-/usr/bin/g++-6  -O3 -DNDEBUG   CMakeFiles/SDL-OpenGL-Boilerplate.dir/main.cpp.o  -o SDL-OpenGL-Boilerplate -L/usr/lib/x86_64-linux-gnu  -lSDL2 

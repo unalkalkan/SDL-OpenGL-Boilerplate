@@ -1,3 +1,0 @@
-/home/rothnald/Workspace/SDL-OpenGL-Boilerplate/build/CMakeFiles/rebuild_cache.dir
-/home/rothnald/Workspace/SDL-OpenGL-Boilerplate/build/CMakeFiles/edit_cache.dir
-/home/rothnald/Workspace/SDL-OpenGL-Boilerplate/build/CMakeFiles/SDL-OpenGL-Boilerplate.dir
