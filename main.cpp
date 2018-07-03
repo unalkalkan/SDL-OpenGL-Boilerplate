@@ -1,14 +1,17 @@
 #include "Application.h"
 
+const int SCREEN_WIDTH = 640;
+const int SCREEN_HEIGHT = 480;
+
 int main()
 {
     Application application;
 
-    if(application.Init("Title", 800, 600) == 1)
+    if(application.Init("Title", SCREEN_WIDTH, SCREEN_HEIGHT) == 1)
     {
         return 1;
     }
-    application.Update();
+    application.Run();
     application.Destroy();
 
     return 0;

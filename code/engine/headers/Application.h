@@ -9,13 +9,16 @@ class Application
 public:
     Application();
     int Init(const char* title, int width, int height);
+    void Run();
     void Update();
+    void ProcessEvents();
     void Destroy();
 
 private:
-    SDL_Window *window; 
-    SDL_Event e;
-    bool quit = false;
+    SDL_Window *window;
+    SDL_Surface *screenSurface;
+    SDL_Event sdlEvent;
+    bool APPLICATION_QUIT = false;
 };
 
 #endif
