@@ -9,7 +9,12 @@ set(INCLUDE_DIRECTORIES "code/engine/headers")
 set(SOURCE_DIRECTORIES "code/engine/src")
 
 
-add_executable(SDL-OpenGL-Boilerplate main.cpp ${SOURCE_DIRECTORIES}/Application.cpp ${SOURCE_DIRECTORIES}/Image.cpp)
+add_executable(SDL-OpenGL-Boilerplate
+        main.cpp
+        ${SOURCE_DIRECTORIES}/Application.cpp
+        ${SOURCE_DIRECTORIES}/Image.cpp
+        ${SOURCE_DIRECTORIES}/MainEventHandler.cpp
+        )
 target_include_directories(SDL-OpenGL-Boilerplate PRIVATE ${INCLUDE_DIRECTORIES})
 
 file(COPY Assets DESTINATION ${CMAKE_BINARY_DIR})

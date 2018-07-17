@@ -9,14 +9,11 @@
 class IApplicationEventHandler
 {
 public:
-    IApplicationEventHandler();
-    virtual ~IApplicationEventHandler();
-
-    virtual void OnKeyDown(uint32 keyCode, bool isRepeat) {}
-    virtual void OnKeyUp(uint32 keyCode, bool isRepeat) {}
-    virtual void OnMouseDown(uint32 mouseDown, uint8 numClicks) {}
-    virtual void OnMouseUp(uint32 mouseDown, uint8 numClicks) {}
-    virtual void OnMouseMove(int32 mousePosX, int32 mousePosY, int32 deltaX, int32 deltaY) {}
+    virtual void OnKeyDown(unsigned int keyCode, bool isRepeat) {}
+    virtual void OnKeyUp(unsigned int keyCode, bool isRepeat) {}
+    virtual void OnMouseDown(unsigned int mouseDown, unsigned int numClicks) {}
+    virtual void OnMouseUp(unsigned int mouseDown, unsigned int numClicks) {}
+    virtual void OnMouseMove(unsigned int mousePosX, unsigned int mousePosY, int deltaX, int deltaY) {}
 };
 
 #endif //APPLICATIONEVENTHANDLER_H
